@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="./css/grilla.css">
+    <link rel="stylesheet" href="./fonts/icons.css">
+    <link rel="stylesheet" href="./css/formulario.css">
+</head>
+<body>
+    <main class="container cuerpo">
+        <section class="row">
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 logo">
+                <span class="icon-user-solid-circle"></span>
+                <h1>Información de contacto</h1>
+                <p><span class="icon-envelope"></span>info.contact@gmail.com</p>
+                <p><span class="icon-mobile"></span>+51665354879</p>
+            </div>
+            <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                <form action="" method="POST">
+                    <p>Enviar un mensaje</p>
+                    <div>
+                        <label for="">Nombres</label>
+                        <input id="nombre" type="text">
+                    </div>
+                    <div>
+                        <label for="">Apellidos</label>
+                        <input id="apellido" type="text">
+                    </div>
+                    <div>
+                        <label for="">Correo electronico</label>
+                        <input id="email" type="email">
+                    </div>
+                    <div>
+                        <label for="">Mensaje</label>
+                        <textarea name="" id="mensaje" cols="30" rows="10"></textarea>
+                    </div>
+                    <input id="boton" type="button" value="Enviar mensaje">
+                </form>
+            </div>
+        </section>
+        <div id="resultado">
+
+        </div>
+    </main>
+    <script src="./js/formualrio.js"></script>
+</body>
+</html>

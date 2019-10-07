@@ -1,0 +1,24 @@
+.cuerpo{
+    padding: 0 20em;
+    margin-top: 6em;
+}
+.logo{
+    background-color: #00bfff;
+    text-align: center;
+    padding: 1.5em;
+    padding-top: 3.5em;
+}
+.logo h1{
+    font-size: 2.3em;
+    color: white;
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+.logo p{
+    color: white;
+    margin-top: .5em;
+}
+.icon-user-solid-circle{
+    font-size: 6em;
+    color: white;
+}
