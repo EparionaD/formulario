@@ -18,31 +18,35 @@
                 <p><span class="icon-envelope"></span>info.contact@gmail.com</p>
                 <p><span class="icon-mobile"></span>+51665354879</p>
             </div>
-            <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 col-xs-12">
+            <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 col-xs-12 formulario-cuerpo">
                 <form action="" method="POST">
                     <p>Enviar un mensaje</p>
                     <div>
-                        <label for="">Nombres</label>
-                        <input id="nombre" type="text">
+                        <label for=""><sup>Nombres*</sup></label>
+                        <input id="nombre" class="form-caja" type="text">
                     </div>
                     <div>
-                        <label for="">Apellidos</label>
-                        <input id="apellido" type="text">
+                        <label for=""><sup>Apellidos*</sup></label>
+                        <input id="apellido" class="form-caja" type="text">
                     </div>
                     <div>
-                        <label for="">Correo electronico</label>
-                        <input id="email" type="email">
+                        <label for=""><sup>Correo electronico</sup></label>
+                        <input id="email"  class="form-caja"type="email">
                     </div>
                     <div>
-                        <label for="">Mensaje</label>
-                        <textarea name="" id="mensaje" cols="30" rows="10"></textarea>
+                        <label for=""><sup>Mensaje</sup></label>
+                        <textarea name=""  class="form-caja" id="mensaje" cols="30" rows="10"></textarea>
                     </div>
-                    <input id="boton" type="button" value="Enviar mensaje">
+                    <div class="input-boton">
+                        <input id="boton" type="button" value="Enviar mensaje">
+                    </div>
                 </form>
             </div>
         </section>
-        <div id="resultado">
-
+        <div class="texto-capturado">
+            <div id="resultado" >
+                
+            </div>
         </div>
     </main>
     <script src="./js/formualrio.js"></script>
